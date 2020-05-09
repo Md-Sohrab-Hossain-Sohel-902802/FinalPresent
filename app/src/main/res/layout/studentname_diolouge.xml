@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#014578"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_studentnameEdittext"
+        android:hint="Enter Student Name"
+        android:textColorHint="#fff"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_studentRollEdittextid"
+        android:hint="Enter Student Roll"
+        android:textColorHint="#fff"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_studentGroupEdittextid"
+        android:hint="Enter Student Group"
+        android:textColorHint="#fff"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alertstudentShiftEdittextid"
+        android:hint="Enter Student Shift"
+        android:textColorHint="#fff"
+        android:textStyle="bold|italic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_saveButtonid"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Save"
+        android:textSize="20sp"
+        />
+</LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background_gradient"
+    android:layout_height="match_parent"
+    tools:context=".DevloperActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settingsImageviewid"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sohrab"
+        app:civ_border_color="#FF000000"
+ />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:text="Md Sohrab Hossain Sohel\n Computer 6th (Rangpur Polytechnic Institute)"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+        <Button
+            android:id="@+id/showbuttonid"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_gravity="right"
+            />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:visibility="gone"
+        android:id="@+id/doyalcircaleimageview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/doyal"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/doyaltextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="#002E0E"
+        android:text="Md Doyal Babu\n Computer 6th (Rangpur Polytechnic Institute)"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+</ScrollView>

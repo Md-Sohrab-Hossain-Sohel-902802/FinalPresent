@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".StudentPresentShower">
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#123458"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textStyle="bold|italic"
+            android:text="....................................\n...................."
+            android:id="@+id/studentdetailsshowerTextviewid"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/attendenceRecyclerViewid"
+        />
+
+
+</LinearLayout>

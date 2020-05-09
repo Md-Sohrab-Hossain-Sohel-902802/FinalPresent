@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".TakeChepterValue">
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/takechepter_partEdittextid"
+        android:hint="Enter Number (1.1)"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+
+        />
+    <EditText
+        android:textColor="#fff"
+        android:layout_below="@+id/takechepter_partEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/takechepter_questionEdittextid"
+        android:hint="Enter Question"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="20dp"
+        />
+        <EditText
+        android:textColor="#fff"
+        android:layout_below="@+id/takechepter_questionEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/takechepter_AnswerEdittextid"
+        android:hint="Enter Answer"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:text="Enter An Image (.jpg)"
+        android:id="@+id/chepter_textview"
+        android:layout_below="@id/takechepter_AnswerEdittextid"
+        android:textStyle="bold|italic"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/addimage"
+        android:layout_below="@+id/chepter_textview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/takechepter_ImageViewid"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/takechepterValueSaveButtonid"
+        android:background="@drawable/edittext_background"
+        android:text="Save Data"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_below="@+id/takechepter_ImageViewid"
+        />
+
+    </RelativeLayout>
+
+</ScrollView>

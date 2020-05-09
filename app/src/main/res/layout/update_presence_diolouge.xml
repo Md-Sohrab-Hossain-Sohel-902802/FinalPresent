@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#014578"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+          android:padding="10dp"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter Attendance (Present or Absent)"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/textviewid"
+    android:textSize="25sp"
+    android:textStyle="bold|italic"
+    android:textColor="#D5055A"
+    android:layout_marginTop="5dp"
+    />
+    <EditText
+        android:textStyle="bold|italic"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:id="@+id/updateAttendenceEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Attendance (Present,Absent)" />
+
+    <Button
+        android:id="@+id/update_attendenceButtonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+       android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColorHighlight="#fff"
+        />
+      </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

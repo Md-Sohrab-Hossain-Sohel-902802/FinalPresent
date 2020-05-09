@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "63073312317",
+    "firebase_url": "https://finalpresent-82a4d.firebaseio.com",
+    "project_id": "finalpresent-82a4d",
+    "storage_bucket": "finalpresent-82a4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63073312317:android:612a4d457c965e33851454",
+        "android_client_info": {
+          "package_name": "com.example.finalpresent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63073312317-k317g3imt7nln0bm0ceegg9b2r5fdos2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalpresent",
+            "certificate_hash": "274d435fc75d46ac40a4c1c252c1a92b148d185b"
+          }
+        },
+        {
+          "client_id": "63073312317-i5ue5ic3nvaor8jgkaaeahmpm229s1er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvHBMbVj0bP385kOS4qjV5nrA02ATusE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63073312317-i5ue5ic3nvaor8jgkaaeahmpm229s1er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

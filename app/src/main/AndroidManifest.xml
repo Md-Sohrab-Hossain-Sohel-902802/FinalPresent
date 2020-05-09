@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.finalpresent">
+
+    <application
+        android:name=".DataHandeler.Offline"
+        android:allowBackup="true"
+        android:icon="@drawable/easypresent"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".TakeChepterValue"></activity>
+        <activity android:name=".ChepterValueShowerActivity" />
+        <activity android:name=".ChepterListActivity" />
+        <activity android:name=".SubjecctNameActivity" />
+        <activity
+            android:name=".ClassNameActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DevloperActivity" />
+        <activity android:name=".StudentPresentShower" />
+        <activity
+            android:name=".StudentNameShowerActivity"
+            android:parentActivityName=".ClassNameActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
